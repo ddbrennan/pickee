@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20180424181047) do
 
   create_table "restaurants", force: :cascade do |t|
     t.string "name"
+    t.integer "zip_code"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

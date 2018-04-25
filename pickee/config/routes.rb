@@ -5,8 +5,6 @@ Rails.application.routes.draw do
   get "current_user", to: "auth#show"
 
   resources :users
-  resources :restaurants
   resources :food_items
-  resources :user_food_items
 
 end
