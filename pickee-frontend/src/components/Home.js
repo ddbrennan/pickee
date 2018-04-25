@@ -5,6 +5,12 @@ import SuggestSearch from "./SuggestSearch"
 import Suggestions from "./Suggestions"
  
 class Home extends React.Component { 
+  
+  componentDidMount = () => {
+    // also check if user is logged in
+    // fetch all users liked Foods
+    // AS WELL AS a list of (10?) suggested food items
+  }
  
   render() { 
     return ( 
@@ -16,5 +22,6 @@ class Home extends React.Component {
       </div>
     ) 
   } 
- } 
+} 
+ 
 export default Home

@@ -3,6 +3,7 @@ import React from "react";
 class Suggestions extends React.Component { 
  
   restaurantSuggestions = () => {
+    // should get all suggestions from the state
     return <div>Some Suggestions</div>
   }
  

@@ -10,6 +10,10 @@ class SuggestSearch extends React.Component {
       value: e.target.value
     })
   }
+  
+  // hitting search should call DB for food items specifically from that restaurant 
+  
+  // changing area code should call DB for food items in new area code
  
   render() { 
     return ( 
